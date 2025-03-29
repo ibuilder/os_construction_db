@@ -1,5 +1,5 @@
 import os
-from supabase import create_client, Client
+from setup_database import create_client, Client
 
 # Initialize Supabase client
 def initialize_supabase():

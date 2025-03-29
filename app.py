@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import os
 from dotenv import load_dotenv
-from supabase import create_client
+from osconstruction import create_client
 from werkzeug.exceptions import BadRequest, NotFound
 
 # Load environment variables

@@ -1,7 +1,7 @@
 import os
 from typing import Dict, List, Optional, Any
 from datetime import datetime
-from supabase import create_client, Client
+from osconstruction import create_client, Client
 
 class OSConstructionManager:
     def __init__(self):
